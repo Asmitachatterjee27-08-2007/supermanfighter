@@ -3,7 +3,7 @@ class Rope {
     var options = {
       bodyA: bodyA,
       pointB: pointB,
-      stiffness: 1.2,
+      stiffness: 1.1,
       length: 450,
     };
 
@@ -26,7 +26,7 @@ class Rope {
       push();
 
       stroke(48, 22, 8);
-      strokeWeight(4);
+      strokeWeight(0);
 
       line(pointB.x, pointB.y, pointA.x, pointA.y);
 
